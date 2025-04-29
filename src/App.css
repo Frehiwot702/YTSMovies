@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.herosection-bg {
+  background-image: linear-gradient(to top, #0E0E0E, #0e0e0e1e);
+}
+
+.dark_background {
+  background-color: #0E0E0E;
+}
+
+.blue_button {
+  background-color: #05E5E5;
+  color: white;
+}
+
+.logo {
+  color: #05E5E5;
+}
+
+.movie_titles_clamp {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
